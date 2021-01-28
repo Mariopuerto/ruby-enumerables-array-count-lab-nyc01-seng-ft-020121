@@ -1,5 +1,6 @@
 def count_strings(array)
-array.count { |strings| array > 0 }
+array.count { |element| element.class == string}
+
  # Return the total number of strings in the provided array using the count enumerable
 end
 
